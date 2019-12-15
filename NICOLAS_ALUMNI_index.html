@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ALUMNI</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="NICOLAS_ALUMNI_style.css">
+</head>
+<body class="uic" background="uic.jpg">
+
+	<div class="tab">
+		<div class="user-view">
+  			<img src="nong.jpg" style="width:80%">
+  				<div class="container">
+    				<font color="white" size="5"><u><p>Nicolas, Jeno M.</p></u></font>
+  				</div>
+		</div>
+
+		<button class="tablinks" onclick="openNav(event, 'Home')"><font color="white" size="3"><b>Home</b>	</font></button>
+  		<button class="tablinks" onclick="openNav(event, 'Faculty Evalutaion')"><font color="white" size="3"><b>Faculty Evalutaion</b></font></button>
+  		<button class="tablinks" onclick="openNav(event, 'Election')"><font color="white" size="3"><b>Election</b></font></button>
+  		<button class="tablinks" onclick="openNav(event, 'Personalized Links')"><font color="white" size="3"><b>Personalized Links</b></font></button>
+  		<button class="tablinks" onclick="openNav(event, 'Student Information')"><font color="white" size="3"><b>Student Informations</b></font></button>
+  		<button class="tablinks" onclick="openNav(event, 'Online Enrolment')"><font color="white" size="3"><b>Online Enrolment</b></font></button>
+	</div>
+
+	<div class="chat-popup" id="myForm">
+  		<form action="/action_page.php" class="form-container">
+    		<h1>Need some Alumni Advice?</h1>
+
+    		<label for="msg"><b><font color="white">Message</font></b></label>
+    		<textarea placeholder="Type message.." name="msg" required></textarea>
+
+    		<button type="submit" class="btn">Send</button>
+    		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  		</form>
+	</div>
+</body>
+</html>
